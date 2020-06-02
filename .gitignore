@@ -22,3 +22,7 @@ yarn-error.log*
 
 # App configuration
 public/config.yml
+
+# Personal logos
+public/assets/tools
+public/assets/icons
