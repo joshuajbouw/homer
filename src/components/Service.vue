@@ -9,7 +9,7 @@
                 <img :src="item.logo" :alt="`${item.name} logo`" />
               </figure>
             </div>
-            <div v-if="item.icon" class="media-left">
+            <div v-if="item.icon" class="media-left" :class="item.iconstyle">
               <figure class="image is-48x48">
                 <i style="font-size: 35px;" :class="item.icon"></i>
               </figure>

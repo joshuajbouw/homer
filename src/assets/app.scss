@@ -2,10 +2,7 @@
 
 @import "./webfonts/webfonts.scss";
 
-@import "bulma";
-
-// Themes import
-@import "./themes/sui.scss";
+@import "node_modules/bulma/bulma.sass";
 
 @mixin ellipsis() {
   white-space: nowrap;
@@ -31,6 +28,7 @@ body {
       &:hover {
         color: var(--link-hover);
       }
+      color: var(--link);
     }
 
     .title {
